@@ -46,7 +46,7 @@ DELETE FROM Department
 WHERE Dept_ID = 3;
 
 CREATE ROLE Analyst
-LOGIN PASSWORD 'analyst111'
+with LOGIN PASSWORD 'analyst111'
 
 GRANT SELECT ON Department TO Analyst;
 GRANT SELECT ON Employee TO Analyst;
@@ -61,6 +61,7 @@ ALTER TABLE Employee
 ALTER COLUMN Emp_Name TYPE VARCHAR(100);
 
 DROP TABLE Project;
+
 
 
 
