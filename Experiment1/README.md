@@ -220,10 +220,9 @@ DROP TABLE Project;
 
 
 ## 📘 **Learning Outcomes**  
-- Understood the basics of relational database design using tables, keys, and relationships.  
-- Learned to apply primary and foreign key constraints to maintain data integrity.  
-- Gained hands-on experience with INSERT, UPDATE, and DELETE operations.  
-- Understood role-based access control using GRANT and REVOKE.  
-- Learned how to create read-only users for secure data access.  
-- Practiced ALTER TABLE and DROP TABLE commands for schema management.  
+-	Understand how to design a relational database using multiple tables with proper relationships.
+-	Learn to apply constraints to maintain data integrity and consistency.
+- Perform basic data manipulation operations such as INSERT, UPDATE, and DELETE.
+-	Implement database security by managing users, roles, and access privileges
+
 
